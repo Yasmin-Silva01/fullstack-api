@@ -1,10 +1,11 @@
 {
   "type": "module",
   "name": "api-alunos",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "API usando Node.js e Express",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,13 +13,14 @@
     "url": "git+https://github.com/Yasmin-Silva01/fullstack-api.git"
   },
   "keywords": [],
-  "author": "Yasmin Silva de Lira",
+  "author": "Yasmin Silva ",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Yasmin-Silva01/fullstack-api/issues"
   },
   "homepage": "https://github.com/Yasmin-Silva01/fullstack-api#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.2",
     "mysql2": "^2.3.3"
   }
